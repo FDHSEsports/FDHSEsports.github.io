@@ -113,7 +113,7 @@
 <h5 class="esport-landing-header" id="about" style="text-align: center">League of Legends</h5>
 <div id="matchbg2">
 <div class="esport-team-landing-latest-matches">
-    <a href="">
+    <a href="javascript:poptastic('matches/paris10-29-19.html');">
         <!---<img src="images/common/esport-champ-late-match.jpg" alt="background">--->
         <span>League of Legends</span>
         <div id="rl">
@@ -135,6 +135,7 @@
         </div>
         <span>Best of 3 | 10/29/2019</span>
     </a>
+
     <a href="">
         <!---<img src="images/common/esport-champ-late-match.jpg" alt="background">--->
         <span>League of Legends</span>
@@ -225,9 +226,12 @@
         <span>Best of 3 | 12/3/2019</span>
     </a>
 </div> </div> <br>
+
+ <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+
+
     
-    
-<div class="esport-team-landing-about" align="center">
+<!---<div class="esport-team-landing-about" align="center">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
@@ -236,7 +240,7 @@
                         <span>about us</span>
                         <p>Established in 2019, Frederick Douglass Esports is currently partaking in its Inagural Season with LoL and is planning to expand into other games in the spring.</p>
                     </div>
-                    <!---<div class="col-xs-6">
+                    <div class="col-xs-6">
                         <span class="feature">
                             <img src="images/common/esport-team-lp-feature-ico.png" alt="feature">
                             <span>legendary</span>
@@ -255,12 +259,12 @@
                             <img src="images/common/esport-team-lp-feature-ico.png" alt="feature">
                             <span>legendary</span>
                         </span>
-                    </div> --->
+                    </div> 
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div>--->
 <div class="esport-landing-latest-videos-section">
 <div id="matches" class="esport_champoinship_shedule_section">
         <div class="container">
@@ -355,5 +359,13 @@
 <script type="text/javascript" src="js/main.js"></script>
 
 <script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+<script>
+var newwindow;
+function poptastic(url)
+{
+	newwindow=window.open(url,'name','height=450,width=1000');
+	if (window.focus) {newwindow.focus()}
+}
+</script>
     
 </body>

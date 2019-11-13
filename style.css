@@ -91,3 +91,114 @@
 width: 900px; 
 margin: 0 auto; 
 }
+
+ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th{
+	background-color: black;
+	color: #ffe221;
+}
+
+.headin{
+	text-align: center;
+	text-decoration: none;
+	color: #ffe221;
+	margin: 30px;
+	display: block;
+}
+
+.wpos{
+	text-align: center;
+}
+
+.wpos td{
+	color: #77ff21;
+}
+
+.pos{
+	text-align: center;
+}
+
+.pos td{
+	color: #ff7b21;
+}
+
+.wpos:hover{
+	background-color: #77ff21;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
+
+.pos:hover{
+	background-color: #ff7b21;
+}
+
+.pos:hover td{
+	color: #000000;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
